@@ -1,0 +1,337 @@
+﻿* {
+    margin: 0 3px 0 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+}
+.body {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/home.jpg');
+    background-size:cover;
+}
+.loginbox {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('../img/home.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.loginbox2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-37%);
+    width: 80%;
+    height: 60%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius:50px;
+    background: white;
+}
+
+.grid {
+    color: white;
+    text-align: center;
+    border:2px solid #808080;
+    left:15%;
+    position:absolute;
+}
+.gridt {
+    width:1200px;
+    margin:0px 150px;
+    color: white;
+    text-align: center;
+    border: 2px solid #808080;
+    left: 9%;
+   
+}
+
+.txtname {
+    width: 26%;
+    margin: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.txtemail, .txtpass, .btnsubmit {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.txtemail, .txtpass {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+.meeow {
+    color: #00b1ff;
+    text-transform: uppercase;
+   
+}
+.meeow ul li::after {
+    content: '';
+    height: 3px;
+    width: 100px;
+    background: #009688;
+    left: 0;
+    bottom: -10px;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width:200px ;
+
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+   top:15%;
+    left: 5%;
+    position: absolute;
+}
+.navbar ul li{
+        transform:translate(0,-150%);
+       list-style: none; 
+       display : inline-block;
+       margin:0 30px;
+       position:relative;
+    top: 0px;
+    left: 0px;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color:#fff;
+    text-transform:uppercase;
+
+}
+.normal::after{
+        content:'';
+        height:3px;
+        width:0;
+        background:#009688 ;
+        position: absolute;
+        left: 0;
+        bottom: -10px ;
+        transition: 0.5s; 
+    }
+.normal:hover::after{
+        width:  100%;
+}
+.button1{
+    width: 200px ;
+    padding: 15px 0 ;
+    text-align: center;
+    margin: 20px 10px  ; 
+    border-radius: 25px ;
+    font-weight:bold;
+    background :transparent ;
+    border: 2px solid #009688;
+    color :#fff;
+    cursor: pointer;
+}
+    .button1:hover {
+        transition: 0.5s;
+        background-color: #009688;
+    }
+.button3 {
+    width: 170px;
+    height:40px;
+    text-align: center;
+    margin: 25px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #009688;
+    color: #fff;
+    cursor: pointer;
+}
+
+    .button3:hover {
+        transition: 0.5s;
+        background-color: #009688;
+    }
+.button2 {
+    width: 100px;
+    height: 30px ;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #009688;
+    color: #fff;
+    cursor: pointer;
+    font-family:Arial;
+    font-size:15px ;
+}
+
+    .button2:hover {
+        transition: 0.5s;
+        background-color: #0fcfbd;
+    }
+    .button2:disabled {
+        background-color: #808080;
+    }
+.lblname {
+    font-weight: bold;
+    color: #fff;
+    margin-left: 50px;
+    
+}
+.lblnamee {
+    font-weight: bold;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.txttypee {
+    width: 15%;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+.txttype {
+    width: 12%;
+    margin-left:10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+.cal {
+    width: 10%;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+    
+}
+.card{
+    width:80%;
+    height:70%;
+    margin-left: 10%;
+    background-color:white;
+    border-radius:10px;
+}
+.line {
+    width: 120px;
+    height: 47px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
+.text {
+    position: absolute;
+    left: 30%;
+}
+.vl {
+    
+    border-left: 6px solid #009688;
+    position: absolute;
+    left: 30%;
+    margin-left: -3px;
+    top: 0;
+
+}
+.vl2 {
+    border-bottom: 1px solid #808080;
+    position: absolute;
+    left: 30%;
+    margin-left: -30px;
+    top: 16%;
+    width:100%;
+}
+
+.vl3 {
+    border-bottom: 1px solid #808080;
+    position: absolute;
+    left: 30%;
+    margin-left: -30px;
+    top: 46%;
+    width: 80%;
+}
+.vl4 {
+    border-bottom: 1px solid #808080;
+    position: absolute;
+    left: 30%;
+    margin-left: -30px;
+    top: 78%;
+    width: 200%;
+}
+.vl5 {
+    border-bottom: 1px solid #808080;
+    position: absolute;
+    left: 30%;
+    margin-left: -30px;
+    top: 110%;
+    width: 200%;
+}
+
+.lblcard1 {
+    position: absolute;
+    left: 150%;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0,0,0,0.75);
+}
+
+.lblcard {
+   font-weight: bold;
+   font-size:22px;
+    color: rgba(0,0,0,0.75);
+    margin-left: 50px;
+    
+}
+.lblcarde {
+    position:absolute;
+    left:135%;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(0,0,0,0.75);
+    margin-left: 50px;
+}
+.lblcard2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #009688;
+    position:absolute;
+    font-family:sans-serif;
+    left:8%;
+    top:80%;
+}
+.drop{
+    color:black ;
+    font-size: 14px; 
+    border-radius : 5px; 
+    height : 20px ;
+}
+.check{
+    color:white;
+}
